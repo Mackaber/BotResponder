@@ -20,7 +20,7 @@ def langtail_request(msg):
         "metadata": {"my_identifier": "my-custom-ID"}
     }
     headers = {
-        "X-API-Key": "lt-eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpc3MiOiJsYW5ndGFpbC1hcGkiLCJzdWIiOiJjbG9sbmxvYzUwMDAzangwODMwcjN2MXMwIiwianRpIjoiY2x1bGRsdXFwMDAwOGpwMGY3dDdoZHB0byIsInJhdGVMaW1pdCI6bnVsbCwiaWF0IjoxNzEyMjQzNTYwfQ.eNzS0YuD0KmZ9CwgcYFelJl_hBGWkfzj6WaZxzYUqWE9zaqOe763e-Ut_7fIoMGDK61HwR1o2i7z9_CZ6f2wig",
+        "X-API-Key": "",
         "content-type": "application/json"
     }
     
