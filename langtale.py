@@ -20,7 +20,7 @@ def langtail_request(msg):
         "metadata": {"my_identifier": "my-custom-ID"}
     }
     headers = {
-        "X-API-Key": "",
+        "X-API-Key": os.getenv('LANG_TAIL_API_KEY'),
         "content-type": "application/json"
     }
     
